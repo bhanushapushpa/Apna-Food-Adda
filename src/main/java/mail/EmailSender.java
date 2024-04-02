@@ -8,9 +8,9 @@ public class EmailSender {
 
 	public static void sendVerificationEmail(String toEmail, String verificationCode) throws MessagingException {
 
-        String fromEmail = "studyjava1010@gmail.com"; // Replace with your email
+        String fromEmail = "studyjava@gmail.com"; // Replace with your email
         String host = "smtp.gmail.com"; // Replace with your SMTP server
-        String password = "xslw wjbp wbvi fbio";
+        String password = "ecld wjbp atck fbio";
 
         Properties properties = System.getProperties();
         properties.setProperty("mail.smtp.host", host);
